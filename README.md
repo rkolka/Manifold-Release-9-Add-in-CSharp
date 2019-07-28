@@ -6,7 +6,7 @@ This template gets you started with Manifold Release 9 add-in. It helps you to a
 
 ## Quick Usage
 
-1. **Download** zip from [here](https://github.com/rkolka/Manifold-Release-9-Add-in-CSharp/blob/master/Manifold%20Release%209%20Add-in%20C%23.zip) and put it into your Visual Studio Project Templates directory e.g. %userprofile%\Documents\Visual Studio 2019\Templates\ProjectTemplates
+1. **Download** zip from [here](https://raw.githubusercontent.com/rkolka/Manifold-Release-9-Add-in-CSharp/master/Manifold%20Release%209%20Add-in%20C%23.zip) and put it into your Visual Studio Project Templates directory e.g. %userprofile%\Documents\Visual Studio 2019\Templates\ProjectTemplates
 2. **Unblock** the zip file.
 3. **Define environment variable** using command SETX MANIFOLD9_HOME C:\Path\To\Manifold-9.0.nnn.n-x64.
 4. **Create a new project** in Visual Studio using this template that should appear under Visual C#. Pick a name for your add-in and click OK. 
