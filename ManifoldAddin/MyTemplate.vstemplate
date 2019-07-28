@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Manifold Release 9 Add-in</Name>
+    <Description>This template gets you started with Manifold Release 9 Add-ins. Read more at http://www.manifold.net/doc/api/index.html</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ManifoldAddin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.csproj" File="ManifoldAddin.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.dll.addin">ManifoldAddin.dll.addin</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.install.bat">ManifoldAddin.install.bat</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.readme.txt">ManifoldAddin.readme.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.uninstall.bat">ManifoldAddin.uninstall.bat</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Script.cs">Script.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties"><ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem></Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

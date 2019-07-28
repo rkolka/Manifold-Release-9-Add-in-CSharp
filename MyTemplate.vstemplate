@@ -1,0 +1,23 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Manifold Release 9 Add-in C# v9</Name>
+    <Description>Add-in and test project. Add-in compiles into dll. Test into exe.</Description>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+    <DefaultName>ManifoldAddin</DefaultName>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Manifold</ProjectSubType>
+    <CreateNewFolder>false</CreateNewFolder> 
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$">
+        ManifoldAddin\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$Test">
+        ManifoldAddinTest\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

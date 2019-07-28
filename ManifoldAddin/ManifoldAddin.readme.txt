@@ -1,0 +1,4 @@
+$safeprojectname$
+Manifold Release 9 Add-in created by $username$ in $time$.
+
+Copyright $username$, $userdomain$ $year$.
