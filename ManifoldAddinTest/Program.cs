@@ -9,10 +9,19 @@ namespace $safeprojectname$
 {
     class Program
     {
+        
+        // ------------------------------- Possible errors --------------------------------------------------------
+        // 'System.BadImageFormatException' occurs if build target is x86 or AnyCPU with Prefer 32bit checked.
+        // 'Invalid API operation without' [STAThread] attribute
+        // --------------------------------------------------------------------------------------------------------
 
         [STAThread] // important
         static void Main(string[] args)
         {
+        // ------------------------------- Possible errors --------------------------------------------------------
+        // 'Invalid API operation' if mis-spelled EXT.DLL (easy to confuse with EXTNET.DLL)
+        // --------------------------------------------------------------------------------------------------------
+
         // Path to EXT.DLL required when using portable install
         //  If the path is left empty, the Root object will try to locate EXT.DLL in the default installation path automatically.
             String extdll = Environment.ExpandEnvironmentVariables(@"%MANIFOLD9_HOME%\bin64\ext.dll");  
@@ -23,8 +32,12 @@ namespace $safeprojectname$
 	            String mapfile = Path.GetFullPath(@"m9_$safeprojectname$.map");
 
                 using (Manifold.Database db = app.CreateDatabaseForFile(mapfile, true))  
-					// Null reference error if Manifold not activated.
 					// app.CreateDatabase() would create a (New Project)
+
+                    // ------------------------------- Possible errors --------------------------------------------------------
+					// 'Null reference' error if Manifold not activated.
+                    // --------------------------------------------------------------------------------------------------------
+
                 {
                     Console.WriteLine(db.Technology);
 
