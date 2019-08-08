@@ -12,7 +12,7 @@ namespace $safeprojectname$
         
         // ------------------------------- Possible errors --------------------------------------------------------
         // 'System.BadImageFormatException' occurs if build target is x86 or AnyCPU with Prefer 32bit checked.
-        // 'Invalid API operation without' [STAThread] attribute
+        // 'Invalid API operation' without [STAThread] attribute
         // --------------------------------------------------------------------------------------------------------
 
         [STAThread] // important
