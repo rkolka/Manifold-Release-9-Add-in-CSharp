@@ -19,13 +19,13 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>$(MANIFOLD9_HOME)\shared\$safeprojectname$\</OutputPath>
+    <OutputPath>C:\Program Files\Manifold\v9.0\shared\$safeprojectname$\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
     <StartAction>Program</StartAction>
-    <StartProgram>$(MANIFOLD9_HOME)\bin64\manifold.exe</StartProgram>
+    <StartProgram>C:\Program Files\Manifold\v9.0\bin64\manifold.exe</StartProgram>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -39,7 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="extnet">
-      <HintPath>$(MANIFOLD9_HOME)\bin64\extnet.dll</HintPath>
+      <HintPath>C:\Program Files\Manifold\v9.0\bin64\extnet.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />

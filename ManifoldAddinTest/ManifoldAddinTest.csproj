@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="extnet">
-      <HintPath>$(MANIFOLD9_HOME)\bin64\extnet.dll</HintPath>
+      <HintPath>C:\Program Files\Manifold\v9.0\bin64\extnet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -59,9 +59,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Addin\Addin.csproj">
+    <ProjectReference Include="..\ReplaceMe\ReplaceMe.csproj">
       <Project>{$guid1$}</Project>
-      <Name>Addin</Name>
+      <Name>ReplaceMe</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

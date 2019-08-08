@@ -2,8 +2,7 @@
 setlocal
 
 
-rem set M9=C:\Program Files\Manifold\v9.0\shared
-set M9=%MANIFOLD9_HOME%\shared
+set M9=C:\Program Files\Manifold\v9.0\shared
 
 
 if exist "%M9%\$safeprojectname$\" GOTO PROMPT

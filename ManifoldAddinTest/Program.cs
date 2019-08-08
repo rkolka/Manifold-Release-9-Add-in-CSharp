@@ -24,8 +24,8 @@ namespace $safeprojectname$
 
         // Path to EXT.DLL required when using portable install
         //  If the path is left empty, the Root object will try to locate EXT.DLL in the default installation path automatically.
-            String extdll = Environment.ExpandEnvironmentVariables(@"%MANIFOLD9_HOME%\bin64\ext.dll");  
-            using (Manifold.Root root = new Manifold.Root(extdll))
+            String extdll = @"C:\Program Files\Manifold\v9.0\bin64\ext.dll";
+            using (Manifold.Root root = new Manifold.Root())
             {
                 Manifold.Application app = root.Application;
                 Console.WriteLine(app.Name);
