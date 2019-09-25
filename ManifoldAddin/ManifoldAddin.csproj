@@ -19,7 +19,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>C:\Program Files\Manifold\v9.0\shared\$safeprojectname$\</OutputPath>
+    <OutputPath>C:\Program Files\Manifold\v9.0\shared\Debug\$safeprojectname$\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
