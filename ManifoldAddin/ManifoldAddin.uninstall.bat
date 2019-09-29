@@ -16,13 +16,15 @@ GOTO DONOTWANT
 
 :DOUNINST
 cd..
+del "%M9%\$safeprojectname$\$safeprojectname$.dll"
+if exist "%M9%\$safeprojectname$\$safeprojectname$.dll" GOTO NOLUCK
+echo $safeprojectname$.dll deleted. 
 rmdir /S /Q "%M9%\$safeprojectname$\"
 if exist "%M9%\$safeprojectname$\" GOTO NOLUCK
-echo $safeprojectname$ successfully uninstalled
 goto END
 
 :NOLUCK
-echo Error: Addin directory still exists. Perhaps you have Manifold running.
+echo Error: Cannot delete $safeprojectname$.dll. Perhaps you have Manifold running.
 echo %M9%\$safeprojectname$\
 GOTO END
 
