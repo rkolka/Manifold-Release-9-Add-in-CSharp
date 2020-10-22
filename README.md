@@ -6,15 +6,16 @@ This template gets you started with Manifold Release 9 add-in. It helps you to a
 
 ## Quick Usage
 
-1. **Download** zip from [here](https://raw.githubusercontent.com/rkolka/Manifold-Release-9-Add-in-CSharp/master/Manifold%20Release%209%20Add-in%20C%23.zip) and put it into your Visual Studio Project Templates directory e.g. %userprofile%\Documents\Visual Studio 2019\Templates\ProjectTemplates
+1. **Download** zip from [here](https://raw.githubusercontent.com/rkolka/Manifold-Release-9-Add-in-CSharp/master/Manifold%20Release%209%20Add-in%20C%23.zip) and put it into your Visual Studio Project Templates directory, usually %userprofile%\Documents\Visual Studio 2019\Templates\ProjectTemplates
 2. **Unblock** the zip file.
-3. Assuming default install location C:\Program Files\Manifold\v9.0\
-4. **Create a new project** in Visual Studio using this template that should appear under Visual C#. Pick a name for your add-in and click OK. 
-5. After successful project creation you can **build the project** without modifying anything. It fails with Error CS0103 The name 'Script' does not exist in the current context.
-6. Under *projectname*Test there is missing reference. **Remove** it and **Add** new reference to *projectname*. Build should succeed.
-7. Browse to *projectdirectory*\bin\Release directory. **Run install_*projectname*.bat**. It copies required files into Manifold's shared directory. NB! You have to have permission to modify shared directory. 
-8. In Manifold 9 go to Tools->Add-Ins. Your add-in shuld be listed there. Click on the name.
-9. Some text and your chosen name should appear on Log pane.
+3. Do **not** unpack the zip.
+4. Assuming default install location C:\Program Files\Manifold\v9.0\
+5. **Create a new project** in Visual Studio using this template that should appear under Visual C#. Pick a name for your add-in and click OK. 
+6. After successful project creation you can **build the project** without modifying anything. It fails with Error CS0103 The name 'Script' does not exist in the current context.
+7. Under *projectname*Test there is missing reference. **Remove** it and **Add** new reference to *projectname*. Build should succeed.
+8. Browse to *projectdirectory*\bin\Release directory. **Run install_*projectname*.bat**. It copies required files into Manifold's shared directory. NB! You have to have permission to modify shared directory. 
+9. In Manifold 9 go to Tools->Add-Ins. Your add-in shuld be listed there. Click on the name.
+10. Some text and your chosen name should appear on Log pane.
 
 
 Read [The Fine Manual](http://www.manifold.net/doc/mfd9/) for more information about Manifold 9!
