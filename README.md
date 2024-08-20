@@ -18,7 +18,9 @@ This template gets you started with Manifold Release 9 add-in. It helps you to a
 10. Some text and your chosen name should appear on Log pane.
 
 
-Read [The Fine Manual](http://www.manifold.net/doc/mfd9/) for more information about Manifold 9!
+Read [The Fine Manual](https://manifold.net/doc/mfd9/read_me_first.htm) for more information about Manifold 9!
+
+API docs is [here](https://manifold.net/doc/api/scripts-net.html).
 
 ## Custom Usage
 
